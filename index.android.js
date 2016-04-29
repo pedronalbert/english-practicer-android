@@ -12,7 +12,7 @@ import SelectorView from './app/routes/SelectorView';
 import TestView from './app/routes/TestView';
 import TestResultsView from './app/routes/TestResultsView';
 
-class practicer extends Component {
+class Practicer extends Component {
   render() {
     return <Router>
       <Scene key="root">
@@ -47,4 +47,4 @@ BackAndroid.addEventListener('hardwareBackPress', function() {
      return false;
 });
 
-AppRegistry.registerComponent('practicer', () => practicer);
+AppRegistry.registerComponent('practicer', () => Practicer);
