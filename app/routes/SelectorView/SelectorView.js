@@ -18,7 +18,7 @@ class SelectorView extends Component {
         finalWord: this.props.finalWord.toString()
       });
     } else {
-      this.setState({initWord: '1', finalWord: '2'});
+      this.setState({initWord: '1', finalWord: '25'});
     }
   }
 
