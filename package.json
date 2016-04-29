@@ -1,6 +1,6 @@
 {
-  "name": "practicer",
-  "version": "0.0.1",
+  "name": "english-practicer",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
@@ -9,6 +9,7 @@
     "immutable": "^3.8.1",
     "react": "^0.14.8",
     "react-native": "^0.24.1",
+    "react-native-router-flux": "^3.22.23",
     "redux": "^3.5.2"
   }
 }
